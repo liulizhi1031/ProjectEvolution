@@ -23,9 +23,9 @@ A RC/Drone/Robot Controler
  ![Image text](https://github.com/liulizhi1031/ProjectEvolution/blob/master/Reference/PastProjectImages/2017_2_03.jpg)  
 &ensp;&ensp;&ensp;&ensp;这次为了更加紧凑，使用了游戏机摇杆（这显然是个致命缺陷），主控STM32F405RGT6直接贴在PCB上，屏幕也缩水到1.8寸（又一个致命缺陷）。一个偶然的机会我发现网上的3D打印服务还不错，而实验室申请的3D打印机一直久批不下，因而只能从网上找平台了，不得不说，光固化真香。总的来看，此时的遥控器和最初的遥控器早已天差地别，但距离成品和我的预期还差的远。  
  ![Image text](https://github.com/liulizhi1031/ProjectEvolution/blob/master/Reference/PastProjectImages/2018_01.jpg)  
- ![Image text](https://github.com/liulizhi1031/ProjectEvolution/blob/master/Reference/PastProjectImages/2018_2020_1.jpg)  
+ ![Image text](https://github.com/liulizhi1031/ProjectEvolution/blob/master/Reference/PastProjectImages/2018_2020_1.JPG)  
 &ensp;&ensp;&ensp;&ensp;接下来的一年就是准备考研，但显然我高估了自己对考试的忍耐程度，直到2020年初，打着毕设的幌子，我重新开始填坑，这次希望能让遥控器更加成熟吧。毕设的进度催促着我要把重心向着多旋翼端偏移，这个控也仅仅完成了硬件的初步设计，软件更是只建了个文件夹。当然暴露的问题也不少，包括由于屏幕中置使遥控器过宽、过于集中化的PCB设计使试错成本猛增、握持手感极差等等一系列细节问题。  
- ![Image text](https://github.com/liulizhi1031/ProjectEvolution/blob/master/Reference/PastProjectImages/2018_2020_2.jpg)  
+ ![Image text](https://github.com/liulizhi1031/ProjectEvolution/blob/master/Reference/PastProjectImages/2018_2020_2.JPG)  
 &ensp;&ensp;&ensp;&ensp;时间来到现在，2020年我一直在准备考研二战，一年的闭关修炼差点直接把我送走，还好这一切都在它该结束的时刻结束了。虽然考试凉了，但坑还是要接着填啊。为了方便和志同道合的朋友们交流心德，也是为了督促自己减少去安东星摸鱼的时间，我决定把项目公开出来。后排提醒，PCB线布的贼乱、代码bug更多，大佬轻喷。  
 &ensp;&ensp;&ensp;&ensp;目前项目取名为“进化”，计划使用STM32H750VBT6作为主控（性价比高），STM32F103C8T6作为协处理器（主控IO太少），3.5寸电容触摸屏（性价比高），固件基于FreeRTOS（文件夹还没建），界面基于LVGL，兼容主流航模遥控器高频头，自带通信模块仍是NRF24L01，但预留扩展接口，稍微遗憾的是由于H750的IO太少，音乐播放只能使用独立的MP3模块，但也降低了开发难度，算是一个取舍吧。  
 &ensp;&ensp;&ensp;&ensp;目前项目正在进行中，感兴趣的朋友们欢迎持续关注，可以关注我的bilibili账号“我的科技工作室”交流。 20210128
