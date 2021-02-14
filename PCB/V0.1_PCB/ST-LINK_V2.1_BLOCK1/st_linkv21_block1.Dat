@@ -1,0 +1,20 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~st_linkv21_block1.PrjPCB|ReportField=ProjectFullPath~F:\My_Tech_Studio\Project\ProjectEvolution\PCB\V0.1_PCB\ST-LINK_V2.1_BLOCK1\st_linkv21_block1.PrjPCB|ReportField=Title~Bill of Materials For Project [st_linkv21_block1.PrjPCB] (No PCB Document Selected)|ReportField=ReportTime~14:26:55|ReportField=ReportDate~2021/2/14|ReportField=ReportDateTime~2021/2/14 14:26:55|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~39|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2021/2/14|ReportField=CurrentTime~14:26:46|ReportField=Date~|ReportField=DocumentFullPathAndName~F:\My_Tech_Studio\Project\ProjectEvolution\PCB\V0.1_PCB\ST-LINK_V2.1_BLOCK1\st_linkv21_block1.SchDoc|ReportField=DocumentName~st_linkv21_block1.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2021/2/14|ReportField=Organization~|ReportField=ProjectName~st_linkv21_block1.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~st_linkv21_block1.PrjPCB|ReportField=DataSourceFullPath~F:\My_Tech_Studio\Project\ProjectEvolution\PCB\V0.1_PCB\ST-LINK_V2.1_BLOCK1\st_linkv21_block1.PrjPCB|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|10PF||C1, C2|0603_C|0603_CAP|2
+2|104||C3, C4, C5, C6, C7, C9, C10|0603_C|0603_CAP|7
+3|10UF||C8, C11|0603_C|0603_CAP|2
+4|0805_LED||LED_STA|0805_LED|0805_LED|1
+5|AMS1117_3.3||POW|SOT223|AMS1117_3.3|1
+6|10K||R1, R2, R3, R4|0603_R|0603_RES|4
+7|0R||R5|0603_R|0603_RES|1
+8|100R||R6|0603_R|0603_RES|1
+9|100K||R7, R8, R19, R20|0603_R|0603_RES|4
+10|22R||R9, R10, R11, R12, R16, R17|0603_R|0603_RES|6
+11|680R||R13|0603_R|0603_RES|1
+12|5.1K||R14, R15|0603_R|0603_RES|2
+13|1.5K||R18|0603_R|0603_RES|1
+14|Header_1.27_8P||SWD1|HDR1.27_8P|Header_1.27_8P|1
+15|Header_2.54_4p_2||SWD2|HDR2_4P|Header_2.54_4p_2|1
+16|Header_2.54||SWD_IN|HDR1_4P|Header_2.54_4P|1
+17|STM32F103C8T6||U1|LQFP48|STM32F103C8T6|1
+18|USB_C_16P_SMT||USB|USB_C_16PIN_SMT|USB_C_16P_SMT|1
+19|8Mhz||XTAL1|XTAL_5032_2|XTAL_8MHz_5032_2|1
